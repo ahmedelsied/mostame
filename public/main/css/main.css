@@ -1,0 +1,329 @@
+section{
+    padding-top: 50px;
+}
+img{
+    max-width:100% !important;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    display: none;
+}
+.order{
+    order: 1;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4C61D5;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent;
+}
+.navbar-brand{
+    padding:0 10px;
+}
+.terms-text{
+    color: black;
+}
+.display-setting-parent{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: white;
+    border: 1px solid #4c61d561;
+    border-radius: 10px;
+    z-index: 9;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+.language-parent{
+    margin-top: 20px
+}
+.mode-parent{
+    margin-bottom: 20px;
+}
+.mode-parent,.language-parent{
+    position: relative;
+}
+.setting-child span{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    padding-top: 3px;
+    text-align: center;
+    display: inline-block;
+}
+.setting-child svg path{
+    stroke: black;
+}
+.setting-child span.active-action{
+    background-color: #4C61D5;
+    border-radius: 5px;
+}
+.setting-child span.live  svg path{
+    stroke: white;
+}
+.setting-child span.live{
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.setting-child span.action:not(.last-ac){
+    right: 0;
+}
+.setting-child span.last-ac{
+    left: 0;
+}
+.display-setting-parent h2{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.display-setting-parent .setting-child{
+    margin-top: 25px;
+    margin-bottom: 24px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    right: 0;
+    top: -28px;
+}
+/* Start Home Page */
+.home-text{
+    padding-top: 5vw;
+}
+.home-text h1{
+    line-height: 4vw;
+}
+.home-text .bio{
+    font-weight: bold;
+}
+.home-text .bio span{
+    font-style: italic;
+}
+/* End Home Page */
+/* Start About Us */
+.about_us-text{
+    padding-top: 30px;
+}
+.about_us-text .about_us-desc{
+    line-height: 2em;
+}
+/* End About Us */
+/* Start Contact Us */
+.contact_us-section .contact_us-text h1{
+    margin-bottom: 50px;
+}
+.contact_us-section button,.login-section button{
+    padding: 10px;
+    border-radius: 20px;
+}
+/* End Contact Us */
+
+/* Start Login Page */
+.login-section .form-group input{
+    width: 35%;
+    margin:auto;
+}
+.login-section .login-btn{
+    width: 120px;
+    margin-top: 20px;
+}
+.login-section .login-fields{
+    width: 35%;
+}
+.login-section .form-group{
+    position: relative;
+}
+.login-section .form-group i{
+    position: absolute;
+    top: 60%;
+}
+.login-section .input-group{
+    display: inline-block;
+}
+.login-section .forget-pass{
+    width: 35%;
+    display: inline-block;
+}
+.login-section .input-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login-section input[type="radio"]{
+    margin: 5px;
+}
+.login-section .login-options-parent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* End Login Page */
+
+/* Start Signup Page */
+.agree-terms{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#birthdate-label{
+    position: absolute;
+    width: 50%;
+    top: 18%;
+    background-color: white;
+    color: #9c9e99;
+    font-weight: 400;
+}
+.signup-text h1{
+    margin-bottom: 30px;
+}
+.signup-text .main-btn{
+    padding: 8px;
+    border-radius: 5px;
+}
+.signup-options{
+    margin-bottom: 20px;
+}
+.signup-section .signup-options-parent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signup-section .signup-options-parent .fa-facebook-f{
+    background-color: #42588D;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 37px;
+}
+.signup-section .signup-options-parent .fa-google{
+    background-color: #D5503C;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+#fb-login-button{
+    width: 33.5px;
+    height: 37px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #42588d;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+.g-signin2 {
+    width: 33.5px;
+    height: 37px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.g-signin2 .abcRioButton{
+    width: 100% !important;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+.g-signin2 .abcRioButton .abcRioButtonContents{
+    display: none;
+}
+/* End Signup Page */
+/* Start Listener Signup */
+.active .main-btn,.active .main-btn:hover{
+    background-color: #182c9a !important;
+    border-color: transparent;
+    color: white !important;
+}
+/* End Listener Signup */
+/* Start Forget Password Page */
+.forget_pass-text{
+    position: relative;
+    top: 9vw;
+}
+.forget_pass-text h1{
+    margin-bottom: 30px;
+}
+#forget_pass_form{
+    margin-top: 50px;
+}
+#forget_pass_form input.form-control{
+    width: 30%;
+    display: inline-block;
+}
+#forget_pass_form button{
+    padding: 10px;
+    border-radius: 20px;
+}
+@media(max-width:992px){
+    .display-setting-parent{
+        width:50%
+    }
+    .navbar-right{
+        text-align:center;
+    }
+    .login-section .form-group{
+        margin: auto;
+        width: 63%;
+        text-align: right;
+    }
+    .login-section .form-group label{
+        width:100%
+    }
+    .login-section .form-group input{
+        width:100%;
+    }
+    .home-text.main,.action.main{
+        text-align: center;
+    }
+    .order{
+        order: 0;
+    }
+}
+@media(min-width:768px){
+    .custom-form-parent{
+        padding-right: 40px;
+    }
+}
+@media(max-width:768px){
+    .forget_pass-text{
+        top: 20vw;
+    }
+    .forget_pass-text h1{
+        font-size: 2.5vw;
+    }
+    .navbar-brand>img{
+        width: 50%;
+        margin: auto;
+    }
+    .login-section .form-group,.login-section .forget-pass{
+        width: 80%;
+    }
+    .display-setting-parent{
+        width:80%;
+    }
+}
+/* End Forget Password Page */
