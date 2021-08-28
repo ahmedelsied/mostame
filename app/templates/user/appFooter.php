@@ -1,0 +1,1 @@
+<script src="<?=USER_JS?>user.js"></script>
